@@ -1,5 +1,5 @@
 import tensorflow as tf
-
+import os
 def define_model(hidden_layer, learning_rate):
 
   model = tf.keras.models.Sequential([
