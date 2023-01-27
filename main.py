@@ -22,7 +22,7 @@ def define_model(hidden_layer, learning_rate):
 
 def prepare_data(batch_size):
   from tensorflow.keras.preprocessing.image import ImageDataGenerator
-
+  os.listdir("./")
   dataset_dir =deepdriver.config.dataset_path 
   train_set_dir =  os.path.join(dataset_dir, 'train_set')
   valid_set_dir =  os.path.join(dataset_dir, 'valid_set')
